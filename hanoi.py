@@ -3,6 +3,7 @@ import ccm
 from ccm.lib.actr import *
 log=ccm.log(html=True)
 
+# class that solves the tower of hanoi game
 class Hanoi(ACTR):
     goal=Buffer()
 
